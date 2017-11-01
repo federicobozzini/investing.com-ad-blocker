@@ -21,7 +21,10 @@ function cleanDoc(doc) {
                          '#findABroker',
                          '.logoSwitch.elpTbl.elp30',
                          '.js-tradenow-btn',
-                         '.tradeNowUKText'];
+                         '.tradeNowUKText',
+                         '.rightColumnAd',
+                         '#webinars_new'
+                        ];
     const compressedAdSelector = adSelectors.join(', ');
     const ads = [...doc.querySelectorAll(compressedAdSelector)];
 
